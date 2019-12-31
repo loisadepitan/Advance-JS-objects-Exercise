@@ -77,7 +77,7 @@ salon.count();
 var text = " ";
 for(var i=0;i<salon.pets.length;i++){
 
-   text += '<p> Name: ${salon.pets[i].name}<br> Age: ${salon.pets[i].age} <br> Breed: ${salon.pets[i].breed} <br> Gender: ${salon.pets[i].gender} <br> Service: ${salon.pets[i].service} <br> Owner: ${salon.pets[i].ownerName} <br> Phone Number: ${salon.pets[i].phoneContact} </p>';
+   text += `<p> Name: ${salon.pets[i].name}<br> Age: ${salon.pets[i].age} <br> Breed: ${salon.pets[i].breed} <br> Gender: ${salon.pets[i].gender} <br> Service: ${salon.pets[i].service} <br> Owner: ${salon.pets[i].ownerName} <br> Phone Number: ${salon.pets[i].phoneContact} </p>`;
 
 }
 
